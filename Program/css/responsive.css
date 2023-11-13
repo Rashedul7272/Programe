@@ -1,0 +1,153 @@
+@media only screen and (max-width:768px) {
+
+
+    /* home page responsive  */
+
+
+    .navber-area>ul {
+        position: absolute;
+        top: -460px;
+        left: 0;
+        background-color: #30336b;
+        height: 400px;
+        width: 100%;
+        flex-direction: column;
+        text-align:center;
+        
+    }
+    .navber-area .manue-iteam .last-child>a {
+        padding-right: 20px;
+    }
+   
+   
+    .navber-area>ul>li>.dropdown-manue {
+        position: absolute;
+        left: 55%;
+    }
+    
+    .manue-iteam {
+        padding-right: 0;
+    }
+    .logo {
+        padding-left: 20px;
+    }
+    .hamburger {
+        display: block;
+    }
+    #nav-btn:checked ~ .manue-iteam {
+        top:60px;
+    }
+    .baner>h1 {
+        font-size: 33px;
+    }
+    .baner {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .baner>p {
+        font-size: 17px;
+    }
+
+    /* first section start  */
+
+    .first-section-title {
+        box-shadow: 0px 0px 6px black;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .first-section {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        gap: 15px;
+    }
+
+    /* second  section start  */
+    .second-section {
+        margin: 0 20px;
+    }
+    .skill-catagory {
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+       
+    }
+    .second-title>h2::after {
+        left: 19%;
+    }
+    /* footer start  */
+
+    .footer-area {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .footer-column {
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+      
+    }
+    .footer-box {
+        width: 100%;
+        padding: 10px 0;
+        color: #ffffff;
+    }
+
+    /* contact area responsive start  */
+
+    .cotact-area {
+        margin: 0 0px;
+        margin-bottom: 100px;
+        
+        
+    }
+    .form-area {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        box-shadow: 0px 0px 4px black;
+        padding: 10px 10px;
+        border-radius: 10px 10px 10px 10px;
+        background: #d4cece3d;
+       }
+       .form-tag input[type=text],
+        .form-tag input[type=email],
+        .form-tag input[type=submit],
+        .form-tag input[type=textarea] {
+        padding: 15px 10px;
+        width: 100%;
+        font-size: 20px;
+        border-radius: 15px ;
+        border: 1px solid gray;
+    }
+    .image >img {
+        border-radius: 10px 10px 10px 10px;
+       }
+
+}
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .skill-catagory {
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+       
+    }
+    .footer-column {
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+      
+    }
+}
+
+ 
+
+
+
+
+ 
