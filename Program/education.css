@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SIMULAR CSS START */
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    ul li {
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+/* SIMULAR CSS END */
+
+html {
+    font-size: 62.5%;
+ }
+
+ 
+  /* NAVBER START */
+
+
+  .logo {
+    color: #ffffff;
+    margin-left: 15rem;
+}
+.manue-iteam {
+    margin-right: 15rem;
+}
+
+.navber-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(#30336b,#D980FA,#130f40);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 6rem;
+    font-size: 1.6rem;
+}
+.navber-area>ul {
+    display: flex;
+}
+.navber-area>ul>li>a {
+    padding: 2rem;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.5s;
+}
+.navber-area>ul>li:hover >a {
+    background-color: #0c2461;
+}
+.navber-area .manue-iteam .last-child>a {
+   padding-right: 0;
+}
+.dropdown-manue {
+    background-color: #0c2461;
+    text-align: center;
+    position: absolute;
+    width: 14.1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    transform: scaleY(0);
+    transform-origin: top;
+    border-radius: 0 0 .8rem .8rem;
+}
+.dropdown-manue-skil {
+    width: 7.7rem;
+}
+.dropdown-manue>li>a {
+    padding: 1rem;
+    display: inline-block;
+    font-weight: bold;
+}
+.navber-area>ul>li:hover >ul {
+    opacity: 1;
+    visibility: visible;
+    transform: scaley(1);
+}
+.dropdown-manue>li:hover{
+    background-image: linear-gradient(#30336b,#D980FA,#130f40);
+}
+
+/* navber end  */ 
+
+/* humbargur start  */
+
+.hamburger {
+    display: none;
+    height: fit-content;
+    padding: 3px 8px;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+ .hamburger:hover {
+    background: #ffffff;
+ }
+ .hamburger div {
+    width: 30px;
+    height: 2px;
+    background: black;
+    margin: 6px;
+ }
+
+
+    /* humbargur end  */
+
+/* education area start  */
+
+
+table {
+    border-collapse: collapse;
+    font-size: 2rem;
+
+}
+th, tr, td {
+    border:1px solid black;
+}
+tr, td {
+    padding: 0.8rem;
+}
+td {
+    text-align: left;
+}
+th {
+    padding: 1.5rem;
+    background: #700101;
+    color: #ffffff;
+}
+.education-list {
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 10rem;
+}
+.table-iteam {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* education area end  */
+
+/* footer area start  */
+
+.footer {
+    background-color: #130f40;
+}
+.footer-area {
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.footer-column {
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   justify-content: space-between;
+   column-gap: 1.5rem;
+}
+.footer-box {
+    padding: 1rem 0;
+    color: #ffffff;
+}
+.footer-box>h2 {
+    font-weight: bold;
+    padding: 1rem 0;
+    font-size: 2.2rem;
+}
+hr {
+    margin-bottom: 2.8rem;
+    width: 70%;
+}
+.footer-box>p {
+    font-weight: bold;
+    padding-bottom: .3rem;
+    font-size: 1.6rem;
+}
+.footer-box>p>i {
+    padding-right: .9rem;
+    color: blue;
+}
+.footer-box>ul {
+    display: flex;
+}
+.footer-box>ul>li>a>i {
+    padding: .8rem;
+    border-radius: 50%;
+    color: blue;
+    font-size: 1.8rem;
+    background-color: #ffffff;
+    margin-right: 1rem;
+    margin-top: 1.1rem;
+    transition: 0.5s;
+}
+.footer-box>ul>li {
+    display: inline-block;
+}
+.footer-box>ul>li>a>i:hover {
+    transform: rotate(360deg);
+    color: #ffffff;
+    background-color: #D980FAB5;
+}
+.footer-box input[type=text],
+.footer-box input[type=email] {
+    padding: 1rem 1rem;
+    width: 100%;
+    border-radius: 1rem;
+    border: none;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+.footer-box input[type=submit] {
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.8rem;
+    background: #700101;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 1rem 0;
+    transition: 0.5s;
+}
+.footer-box input[type=submit]:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/* footer area end  */
